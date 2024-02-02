@@ -6,7 +6,8 @@ Credivo, a cutting-edge company, grapples with a wealth of data from diverse sou
 Recognizing the need for a transformative solution, Credivo is poised to implement an advanced data pipeline. This pipeline aims to streamline data organization, enhancing accessibility and instilling trust in the information. The primary goal is to empower the Credivo team with timely and accurate data, enabling them to make informed decisions that contribute to the company's overall improvement.
 
 ## Pipeline:
-![image](https://github.com/ariqarfina/credivo_pipeline/assets/101324931/4b52a32a-d4c0-4070-9283-b802ae257762)
+![image](https://github.com/ariqarfina/credivo_pipeline/assets/101324931/e6228cbe-d66f-45b4-8892-d7c46dd6f682)
+
 
 **Requirements & Components**
 1. Docker Compose Configuration:
