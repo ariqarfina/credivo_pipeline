@@ -67,10 +67,12 @@ Output:
 - Dashboard for Data Quality and Credit Data Insight
 
 
-Data Quality Dashboard:
-<img width="783" alt="Screenshot 2024-02-02 at 14 02 53" src="https://github.com/ariqarfina/credivo_pipeline/assets/101324931/c91ca8ec-2fab-4b88-8ec3-ba4d657fd401">
+Dashboard:
 
+<img width="690" alt="Screenshot 2024-02-03 at 12 47 35" src="https://github.com/ariqarfina/credivo_pipeline/assets/101324931/8d3e13fe-1cde-495f-af8b-9bd0a88e60f0">
+<img width="689" alt="Screenshot 2024-02-03 at 12 49 04" src="https://github.com/ariqarfina/credivo_pipeline/assets/101324931/e412f96a-c8ef-403b-bc20-320b83c0def9">
 
+https://lookerstudio.google.com/reporting/b1ed1241-facb-43ba-a7e2-090010207b3f
 
 
 
