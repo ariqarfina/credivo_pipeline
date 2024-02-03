@@ -53,5 +53,5 @@ gcs_to_gbq = GCSToBigQueryOperator(
         dag=dag
     )
 
-#Define task pipeline
+#Define task dependencies
 upload_mysql_to_gcs>> gcs_to_gbq
