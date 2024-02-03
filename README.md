@@ -57,7 +57,7 @@ Recognizing the need for a transformative solution, Credivo is poised to impleme
       - Create and define service account name as `local-airflow-mysql-gcs` to generate google cloud credential key
 10. Data Profiling Scan on Google Cloud Dataplex:
       - **Description:**
-         - Create and define data profile name as `DP - CRDV APPLICATION TEST`
+         - Create and define data profile name as `DP - CRDV APPLICATION TEST PROFILE`
          - Set profiling scope to Entire Data
          - Send the profile test to BigQuery Dataset named  `CREDIVO_DW` and name it as `DP_{Table_Name}` (In this case, we use `application_test` data to run the whole process
 
