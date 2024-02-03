@@ -15,7 +15,7 @@ default_args = {
 
 #define dag
 dag = DAG('move_mysql_to_gbg',
-          schedule_interval= None,
+          schedule_interval= '@daily',
           default_args= default_args,
           description="Moving Data from MySQL to BigQuery",
           dagrun_timeout=timedelta(minutes=60)
