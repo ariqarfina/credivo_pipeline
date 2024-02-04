@@ -11,11 +11,12 @@ Recognizing the need for a transformative solution, Credivo is poised to impleme
 
 **Requirements & Components**
 1. Docker Compose Configuration:
-   - **File:** `docker-compose-airflow.yml`, `docker-compose-postgres.yml`
+   - **File:** `docker-compose-airflow.yml`, `docker-compose-postgres.yml`, `docker-compose-jupyter.yml`
    - **Services:**
-      - `Airflow Scheduler`
-      - `Airflow Webserver`
-      - `Postgres`
+      - `Airflow Scheduler` : for scheduling in airflow
+      - `Airflow Webserver` : for Airflow UI
+      - `Postgres` : for Airflow database (Staging database, save temporary file while airflow is processing)
+      - `Jupyter` : for developing code
 2. Airflow DAG (Directed Acyclic Graph):
    - **File:** `[run]credivo-dag-gcs.py`
    - **Description:**
@@ -27,12 +28,12 @@ Recognizing the need for a transformative solution, Credivo is poised to impleme
 3. Environment:
    -  **File:** `.Env`
 4. Dockerfile:
-   - **File:** `Dockerfile.airflow-arm
+   - **File:** `Dockerfile.airflow-arm`, `Dockerfile.jupyter` (text document containing all the commands the user requires to call on the command line to assemble an image)
 5. Makefile:
    - **File:** `Makefile`
    - **Commands:**
-      - `run-all`: Starts all the containers (`Airflow` and `Posgres`)
-      - `stop-all`: Stops all the containers (`Airflow` and `Posgres`).
+      - `run-all`: Starts all the containers (`Airflow`, `Posgres`, and `Jupyter`)
+      - `stop-all`: Stops all the containers (`Airflow`, `Posgres`, and `Jupyter`).
 6. Google Cloud Bucket
    - **Description:**
       - Create and define bucket name as `crdivo_lake`
