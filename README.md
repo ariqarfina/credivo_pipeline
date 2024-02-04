@@ -1,9 +1,9 @@
 # **Credivo Data Pipeline**
 
 ## Project Overview:
-Credivo, a cutting-edge company, grapples with a wealth of data from diverse sources, presenting an opportunity for informed decision-making and valuable insights. However, the challenge lies in the effective utilization of this data and the prevalent issue of inadequate Data Quality. Compounding the problem, stakeholders lack access to tools that allow them to assess and ensure the reliability of the data.
+Credivo, like many modern companies, deals with a lot of data from different sources. This data can help make smart decisions and find important insights, but it's hard to use effectively.
 
-Recognizing the need for a transformative solution, Credivo is poised to implement an advanced data pipeline. This pipeline aims to streamline data organization, enhancing accessibility and instilling trust in the information. The primary goal is to empower the Credivo team with timely and accurate data, enabling them to make informed decisions that contribute to the company's overall improvement.
+To fix this, Credivo knows it needs a better data pipeline for managing data. This pipeline will organize the data better, making it easier to use and trust. With this pipeline, Credivo wants to give its team the right information at the right time, so they can make better decisions and make the company better overall.
 
 ## Pipeline:
 ![image](https://github.com/ariqarfina/credivo_pipeline/assets/101324931/e6228cbe-d66f-45b4-8892-d7c46dd6f682)
